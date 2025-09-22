@@ -584,7 +584,7 @@
         <div class="label text-third-text-color text-sm">Categories</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">5</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">6</div>
         <div class="label text-third-text-color text-sm">Posts</div>
     </a>
 </div>
@@ -614,15 +614,48 @@
 		<div class="w-full md:w-48 shrink-0 md:sticky md:top-[var(--navbar-height)] h-fit sm:py-6">
 			<nav class="flex md:block overflow-x-auto scrollbar-hide pb-4 md:pb-0 gap-2">
 				
-				<a href="#工具" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+				<a href="#about-site" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
                    hover:bg-second-background-color hover:text-primary hover:scale-102 
                    transition-all duration-200 border border-transparent 
                    hover:border-second-background-color
                           shrink-0 font-medium
                           bookmark-nav-item"
-                   data-category="工具">
-					<i class="fa-regular fa-tools mr-2 w-6 h-6"></i>
-					工具
+                   data-category="about-site">
+					<i class="fa-regular fa-solid fa-globe mr-2 w-6 h-6"></i>
+					About Site
+				</a>
+				
+				<a href="#ai-tools" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="ai-tools">
+					<i class="fa-regular fa-solid fa-microchip-ai mr-2 w-6 h-6"></i>
+					AI Tools
+				</a>
+				
+				<a href="#coding" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="coding">
+					<i class="fa-regular fa-solid fa-code mr-2 w-6 h-6"></i>
+					Coding
+				</a>
+				
+				<a href="#work-flow" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="work-flow">
+					<i class="fa-regular fa-solid fa-briefcase mr-2 w-6 h-6"></i>
+					Work Flow
 				</a>
 				
 			</nav>
@@ -631,9 +664,67 @@
 		<!-- Right Content - Bookmarks -->
 		<div class="flex-1 max-w-full">
 			
-			<section id="工具" class="mb-12">
+			<section id="about-site" class="mb-12">
 				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
-					工具
+					About Site
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://hexo.io/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/hexo.webp" alt="Hexo" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Hexo
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										一个快速、简洁且高效的博客框架
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://redefine.wiki/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/redefine.webp" alt="Redefine" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Redefine
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										一个专注于技术和编程的知识分享社区
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+			<section id="ai-tools" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					AI Tools
 				</h2>
 
 				<div class="grid gap-6 lg:grid-cols-2">
@@ -644,7 +735,7 @@
 							<div class="flex items-center gap-5">
 								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
                                                 transform group-hover:scale-105 transition-transform duration-300">
-									<img src="https://chat.openai.com/favicon.ico" alt="ChatGPT" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+									<img src="/images/icons/chatgpt.png" alt="ChatGPT" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
 								</div>
 								<div class="flex-1 min-w-0 flex flex-col gap-1">
 									<div class="flex items-center justify-between">
@@ -668,7 +759,7 @@
 							<div class="flex items-center gap-5">
 								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
                                                 transform group-hover:scale-105 transition-transform duration-300">
-									<img src="https://www.anthropic.com/favicon.ico" alt="Claude" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+									<img src="/images/icons/claude.png" alt="Claude" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
 								</div>
 								<div class="flex-1 min-w-0 flex flex-col gap-1">
 									<div class="flex items-center justify-between">
@@ -680,6 +771,266 @@
 									</div>
 									<p class="text-sm text-third-text-color line-clamp-2">
 										Anthropic 的 AI 对话助手
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://copilot.github.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/copilot.png" alt="GitHub Copilot" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											GitHub Copilot
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										GitHub 的 AI 编程助手
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://chat.deepseek.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/deepseek.png" alt="DeepSeek" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											DeepSeek
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										深度求索的 AI 对话助手
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+			<section id="coding" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					Coding
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/getbrains.png" alt="Jetbrains" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Jetbrains
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										开发工具
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.trae.cn/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/trae.jpg" alt="Trae IDE" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Trae IDE
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										基于智能体的 AI 自动编程 IDE
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/vscode.png" alt="VSCode" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											VSCode
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										由微软开发的免费开源代码编辑器
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://typora.io/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/typora.webp" alt="Typora" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Typora
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										一款简洁高效的 Markdown 编辑器
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+			<section id="work-flow" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					Work Flow
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://www.updf.cn/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/updf.png" alt="UPDF" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											UPDF
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										新一代 AI 智能 PDF 编辑器
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.cherry-ai.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/cherry_studio.webp" alt="Cherry Studio" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Cherry Studio
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										支持多服务商集成的 AI 对话客户端
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://obsidian.md/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/obsidian.png" alt="Obsidian" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Obsidian
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										强大的知识管理和笔记工具
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="/images/icons/git.png" alt="git" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											git
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										分布式版本控制系统
 									</p>
 								</div>
 							</div>
@@ -713,11 +1064,11 @@
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        5 posts in total
+                        6 posts in total
                     </span>
                     
                         <span>
-                            7.6k words in total
+                            8.7k words in total
                         </span>
                     
                 </p>
